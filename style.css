@@ -1,15 +1,22 @@
 .container{
     display: flex;
     flex-wrap: wrap;
-    width: 256px;
+    width: 960px;
+    border: 1px solid black;
 }
 
 .square-div{
     /* border: 1px solid black; */
-    height: 16px;
-    width: 16px;
+    /* height: 60px;
+    width: 60px; */
+    transition: all 0.15s
 }
 
 .square-div:hover{
-    background-color: red;
+    background-color: grey;
+    transition: none;
+}
+
+button {
+    margin-bottom: 1%;
 }
