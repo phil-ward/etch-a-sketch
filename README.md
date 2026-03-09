@@ -25,7 +25,7 @@ A browser-based sketchpad that allows users to draw by hovering over a grid of s
 
 ## Live Demo
 
-[View Live Demo](https://yourusername.github.io/odin-etch-a-sketch)
+[View Live Demo](https://phil-ward.github.io/etch-a-sketch)
 
 ## How to Use
 
