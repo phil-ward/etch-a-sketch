@@ -1,22 +1,26 @@
-.container{
-    display: flex;
-    flex-wrap: wrap;
-    width: 960px;
-    border: 1px solid black;
+/* Main container for the grid of squares */
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 960px;
+  border: 1px solid black;
 }
 
-.square-div{
-    /* border: 1px solid black; */
-    /* height: 60px;
+/* Individual square divs in the grid */
+.square-div {
+  /* border: 1px solid black; */
+  /* height: 60px;
     width: 60px; */
-    transition: all 0.15s
+  transition: all 0.15s; /* Smooth transition for hover effect */
 }
 
-.square-div:hover{
-    background-color: grey;
-    transition: none;
+/* Hover effect - changes square to grey instantly */
+.square-div:hover {
+  background-color: grey;
+  transition: none; /* Instant color change on hover */
 }
 
+/* Button styling */
 button {
-    margin-bottom: 1%;
+  margin-bottom: 1%; /* Space between button and grid */
 }
